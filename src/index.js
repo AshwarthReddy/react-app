@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ConditionalRendering from "./components/ConditionalRendering";
+import  Greeting  from './components/Greeting';
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
-      <ConditionalRendering />
+    <Greeting isLoggedIn = {false} />
   </React.StrictMode>,
   document.getElementById('root')
 );

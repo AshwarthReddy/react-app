@@ -1,3 +1,3 @@
-export function UserGreeting(props){
-    return <h1>Welcome back</h1>
-}
+import React from 'react';
+
+export const UserGreeting = () => <h1>Welcome back</h1>
