@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import  Greeting  from './components/Greeting';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    <Greeting isLoggedIn = {false} />
   </React.StrictMode>,
   document.getElementById('root')
 );
