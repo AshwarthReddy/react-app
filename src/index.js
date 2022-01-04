@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import  Greeting  from './components/Greeting';
 import CheckYourVoteEligibility from './components/class_conditional_rendering/CheckYourVoteEligibility'
-
+import  ReactContext from './components/react-context/ReactContext'
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
-      <CheckYourVoteEligibility />
+      {/* <CheckYourVoteEligibility /> */}
+      <ReactContext />
       { /* <Greeting isLoggedIn = {false} /> */}
   </React.StrictMode>,
   document.getElementById('root')
