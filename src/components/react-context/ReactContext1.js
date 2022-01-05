@@ -18,10 +18,10 @@ class ReactContext1 extends React.Component{
     }
 }
 
-export const Parent = (props) => (<Child />);
+export const Parent = () => (<Child />);
 
 
-export const Child = (props) =>   {
+export const Child = () =>   {
     return (
         <h1><context.Consumer>{(data) => data }</context.Consumer></h1>
     );
