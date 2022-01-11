@@ -7,12 +7,16 @@ import  Greeting  from './components/Greeting';
 import CheckYourVoteEligibility from './components/class_conditional_rendering/CheckYourVoteEligibility'
 import  ReactContext from './components/react-context/ReactContext'
 import ReactContext1 from './components/react-context/ReactContext1'
+import SumExample from './components/functional_components/Sum'
+
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
       {/* <CheckYourVoteEligibility /> */}
       {/* <ReactContext /> */}
-      <ReactContext1 />
+      {/* <ReactContext1 /> */}
+      <SumExample />
+
       { /* <Greeting isLoggedIn = {false} /> */}
   </React.StrictMode>,
   document.getElementById('root')
